@@ -17,6 +17,8 @@ class ViewController: UIViewController {
 
 
     @IBAction func askButtonPressed(_ sender: UIButton) {
+        print("Clicked")
+        
         let imageArray = [
             UIImage(imageLiteralResourceName: "ball1"),
             UIImage(imageLiteralResourceName: "ball2"),
