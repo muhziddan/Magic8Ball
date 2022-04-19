@@ -9,12 +9,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var image: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        // testing
     }
 
 
+    @IBAction func askButtonPressed(_ sender: UIButton) {
+        
+    }
 }
-
